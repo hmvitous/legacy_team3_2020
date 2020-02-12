@@ -6,9 +6,9 @@ feature 'User can create an account' do
     
   end
 
-  it 'When sign up is clicked the sign up form shows' do
+  it '#' do
     click_on 'Sign up'
-    gets new_user_registration_path('Sign up')
+    expect(page).to have_content
   end
 
 
