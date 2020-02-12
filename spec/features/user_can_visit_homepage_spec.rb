@@ -10,8 +10,11 @@ feature 'Can visit homepage' do
             expect(page).to have_content 'Craft Academy Mailboxer'
         end
 
-        # it 'displays sign-up button' do
+         it 'displays sign-up button' do
+            expect(page).to have_content 'Sign up'
+            click_on 'Sign up'
+         end
 
-        # end
+         
     end
 end
