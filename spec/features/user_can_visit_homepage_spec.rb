@@ -15,6 +15,11 @@ feature 'Can visit homepage' do
             click_on 'Sign up'
          end
 
+         it 'displays login button' do
+            expect(page).to have_content 'Login'
+            click_on 'Login'
+         end
+
          
     end
 end
