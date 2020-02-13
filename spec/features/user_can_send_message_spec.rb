@@ -11,7 +11,7 @@ feature 'User can create' do
         end
         
     context 'an email' do
-        click_on 'Compose'
+        visit conversation_path
         binding.pry
         select(recipients[])
         fill_in 'Subject', with: 'Hello'
