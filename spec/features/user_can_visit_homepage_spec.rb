@@ -20,6 +20,6 @@ feature 'Can visit homepage' do
             click_on 'Login'
          end
 
-         
+    
     end
 end
